@@ -1,22 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 20px;
+  background-color: lightblue;
 }
-
-.App-link {
-  color: #09d3ac;
+.book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 2px solid darkblue;
+  background-color: lightblue;
+  margin: 10px;
+}
+.book-title,
+.book-img,
+.book-desc {
+  padding: 20px;
+}
+.book-title {
+  font-size: 25px;
+}
+.helloTitle {
+  padding: 20px;
+}
+input,
+select {
+  margin: 10px;
 }
